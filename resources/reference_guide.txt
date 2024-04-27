@@ -1,7 +1,0 @@
-Images in resources/img will contain web specific images, while resources/css/img will contain css images linked to the hmtl folder
-Resources in the vendor directory will contain all elements from other sources
-Properly align normalize.css in vendors directory
-setting up the fluid grid for responsive web design
-*If adding more rows or columns change the grid.css file to correct responsiveness!* Grid is explained in setting up the fluid grid for responsive web design!
-building the header part 3
-
