@@ -1,6 +1,6 @@
 /* 
-    Main color: #fed330 
-    Secondary color: #eac301;
+    Primary: #fed330; 
+    Secondary: #eac301;
 */
 
 
@@ -88,10 +88,10 @@ h2:after {
 }
 
 /* ----- ICONS ----- */
-
-
-
-
+ion-icon {
+    font-size: 300%;
+    color: #fed330;
+}
 
 
 /* ----- BUTTONS ----- */
@@ -156,7 +156,7 @@ header {
 
 .logo {
     float: left;
-    height: 100px;
+    height: 90px;
     width: auto;
     margin-top: 20px;
 }
