@@ -1,7 +1,4 @@
-/* 
-    Primary: #eac301; 
-    Secondary: #c8a701; 
-*/
+/* color: #eac301; */
 
 /*-----------------------------------------------*/
 /* BASIC SETUP */
@@ -35,6 +32,7 @@ section {
 }
 
 /* ----- HEADINGS ----- */
+
 h1, 
 h2,
 h3 {
@@ -75,6 +73,7 @@ h2:after {
 }
 
 /* ----- PARAGRAPHS ----- */
+
 .long-copy {
     line-height: 145%;
     width: 70%;
@@ -87,12 +86,14 @@ h2:after {
 }
 
 /* ----- ICONS ----- */
+
 ion-icon {
     font-size: 300%;
     color: #eac301;
 }
 
 /* ----- BUTTONS ----- */
+
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -143,9 +144,6 @@ header {
     background-position: center;
     height: 100vh;
 }
-
-header 
-
 
 .hero-text-box {
     position: absolute;
@@ -240,17 +238,57 @@ header
     transform: scale(1.04);
 }
 
-
-
-
-
-
-
-
-
-
-
 /*-----------------------------------------------*/
-/* MEDIA QUERIES */
+/* HOW TO SECTION */
 /*-----------------------------------------------*/
 
+/* ----- MOBILE PHONE IMAGE ----- */
+
+.app-screen {
+    width: 40%;
+    margin-left: auto;
+}
+
+/* ----- MOBILE PHONE IMAGE ----- */
+
+.section-steps {
+    background-color: #f3f2f2;
+}
+
+.steps-box-container:first-child { 
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box-container:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.steps-box {  /* work-steps*/
+    margin-bottom: 50px;
+}
+
+.steps-box:last-of-type {
+    margin-bottom: 80px;
+}
+
+.steps-box div {
+    color: #eac301;
+    border: 2px solid #eac301;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 150%;
+    padding: 5px;
+    float: left;
+    margin-right: 25px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
