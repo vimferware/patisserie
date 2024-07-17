@@ -31,7 +31,11 @@ section {
     padding: 80px 0;
 }
 
-/* ----- HEADINGS ----- */
+.box {
+    padding: 1%;
+}
+
+/* -------- HEADINGS -------- */
 
 h1, 
 h2,
@@ -72,12 +76,13 @@ h2:after {
     margin-top: 30px;
 }
 
-/* ----- PARAGRAPHS ----- */
+/* -------- PARAGRAPHS -------- */
 
 .long-copy {
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
+    margin-bottom: 40px;
 }
 
 .box p {
@@ -85,14 +90,7 @@ h2:after {
     line-height: 145%;
 }
 
-/* ----- ICONS ----- */
-
-ion-icon {
-    font-size: 300%;
-    color: #eac301;
-}
-
-/* ----- BUTTONS ----- */
+/* -------- BUTTONS -------- */
 
 .btn:link,
 .btn:visited {
@@ -132,6 +130,43 @@ ion-icon {
 .btn-ghost:active {
     border: 1px solid #c8a701;
     color: #fff;
+}
+
+/* -------- ICONS -------- */
+
+.icon-big {
+    font-size: 300%;
+    display: block;
+    color: #eac301;
+    margin-bottom: 10px;
+}
+
+.small-icon-container {
+    display: inline-block;
+    width: 30px;
+    font-size: 120%;
+    color: #eac301;
+    margin-right: 10px;
+    line-height: 125%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/* -------- LINKS -------- */
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #eac301;
+    border-bottom: 1px solid #eac301;
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
 }
 
 /*-----------------------------------------------*/
@@ -190,18 +225,6 @@ header {
 }
 
 /*-----------------------------------------------*/
-/* FEATURES */
-/*-----------------------------------------------*/
-
-.section-features .long-copy {
-    margin-bottom: 40px;
-}
-
-.box {
-    padding: 1%;
-}
-
-/*-----------------------------------------------*/
 /* PASTRY */
 /*-----------------------------------------------*/
 
@@ -239,17 +262,13 @@ header {
 }
 
 /*-----------------------------------------------*/
-/* HOW TO SECTION */
+/* SIGN UP */
 /*-----------------------------------------------*/
-
-/* ----- MOBILE PHONE IMAGE ----- */
 
 .app-screen {
     width: 40%;
     margin-left: auto;
 }
-
-/* ----- MOBILE PHONE IMAGE ----- */
 
 .section-steps {
     background-color: #f3f2f2;
@@ -266,7 +285,7 @@ header {
     margin-top: 70px;
 }
 
-.steps-box {  /* work-steps*/
+.steps-box {  
     margin-bottom: 50px;
 }
 
@@ -287,8 +306,27 @@ header {
     margin-right: 25px;
 }
 
+.btn-app:link,
+.btn-app:active {
+    border: 0;
+}
+
 .btn-app img {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+/*-----------------------------------------------*/
+/* CITIES */
+/*-----------------------------------------------*/
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.cities-content-container {
+    margin-bottom: 5px;
 }
